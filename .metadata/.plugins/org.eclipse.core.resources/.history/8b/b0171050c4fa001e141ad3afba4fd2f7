@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+    [js 클래스 도입]
+    - ES6(== ECMAScript2015) 클래스가 도입.
+    - class 키워드
+    - constructor 생성자 함수 추가.
+  </xmp>
+</div>
+  <script>
+    class Car{
+    	// java 필드 선언
+    	//public String name;
+    	//public int year;
+    	
+    	// 생성자 함수 : 필드 초기화
+    	constructor(name, year) {
+    		// 속성 초기화
+    		this.name = name;
+    		this.year = year;
+    	}
+    	
+    	// 메서드 선언
+    	age(){
+    		const now = new Date();
+    		return now.getFullYear() - this.year;
+    	}
+    	
+    	method_1(){}
+    	method_2(){}
+    }
+    
+    // java Car car1 = new Car("", 2000);
+    
+    const car1 = new Car("KIA", 2024);
+    const car2 = new Car("BMW", 2024);
+    
+    alert(car1.name);
+    alert(car1["name"]); 
+    alert(car1.age); 
+    
+  </script>
+
+</body>
+</html>
+
+
+
+

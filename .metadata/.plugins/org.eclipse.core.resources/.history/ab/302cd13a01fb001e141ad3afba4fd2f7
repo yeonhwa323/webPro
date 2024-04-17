@@ -1,0 +1,15 @@
+/**
+ * ex06_person.js
+   export(수출) == 변수 내보내기.
+ */
+ 
+ 	// 개별적으로 변수 내보내기
+ 	/*
+ 	export const name = "admin";
+ 	export const age = 20;
+ 	*/
+ 	
+ 	export const name = "admin";
+ 	export const age = 20;
+ 	
+ 	export { name, age };

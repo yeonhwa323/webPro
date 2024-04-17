@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+<style>
+  #panel,   #flip{
+      padding: 5px;
+      font-size: 18x;
+      text-align: center;
+      color:white;
+      background-color: #555;
+      border:1px solid #666;
+      border-radius:3px
+  }
+  #panel{
+     padding: 50px;
+      display: none;  
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+    [ stop() 메서드 ]
+    - 현재 진행중인 애니메이션을 중지하는 데 사용(완료되기 전 상태).
+    - stop( stopAll, goToEnd )
+    
+    ㄴ stopAll : 기본값 false
+    	false  [너비300,[높이300],너비100,높이100]
+    			대기열    ↑
+    				   진행중(진행중인 상태만 stop/나머지단계는 진행)
+    	true   현재진행중  애니 + 대기열 모두 중지
+    	
+    ㄴ goToEnd : 기본값 false
+    	현재 애니메이션이 즉시 완료할 수 있는 여부를
+    	지정하는 매개변수.
+    
+  </xmp>
+  
+  <button id="stop">Stop Sliding</button>
+  <button id="flip">Stop Sliding</button>
+  <button id="stop">Stop Sliding</button>
+  
+  
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

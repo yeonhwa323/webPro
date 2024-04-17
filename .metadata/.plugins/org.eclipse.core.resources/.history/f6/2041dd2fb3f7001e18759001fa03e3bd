@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+     [js 숫자(Number)]
+  </xmp>
+</div>
+
+ <script>
+   let x = 3;     // 정수
+   let y = 3.14;  // 실수
+   // alert( typeOf y ) number
+   // js 숫자는 64비트 부동 소수점
+   // js 숫자는 최대 15자리까지 정확하다.
+   let z = 123e5; // 지수표현법 사용 가능
+   
+   x = 999999999999999; // 15개
+   x = 9999999999999999;// 16개
+   //alert( x ) ; // 10000000000000000
+   
+   // z = 0.2 + 0.1;
+   // alert( z ); // 0.30000000000000004
+   
+   z = (10*0.2 + 10*0.1)/10
+   // alert( z );
+   
+   //10 + 20   30
+   // "10" + "20"  "2030"
+   // 10 + "20"    "2030"
+   
+   // --------->
+   // 10 + 20 + "30"
+   //    30   + "30"
+   //    "3030"
+ </script>
+ 
+ <script>
+   // "10010"
+   // document.write( "100" + "10");
+   
+   // js 모든 숫자 연산자는 문자열 숫자로 자동으로 변환하려고 한다.
+   // 90 , 1000, 10
+   document.write( "100" - "10" +"<br>"); 
+   document.write( "100" * "10" +"<br>"); 
+   document.write( "100" / "10" +"<br>"); 
+ </script>
+
+ <script>
+   
+   alert( isNaN(100 / "test") ); // NaN
+   
+   //NaN + "5"  "NaN5"
+ 
+   alert( typeof NaN ) ; // number
+   
+ </script>
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+

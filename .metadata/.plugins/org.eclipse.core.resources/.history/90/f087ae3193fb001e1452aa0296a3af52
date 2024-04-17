@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+    [js html DOM]
+    1. 웹 페이지 요청 -> 응답
+    	  요청(request)
+    	  응답(response)
+    2. 웹 브라우저(클라이언트)가 응답받은 웹 페이지를
+       로드하면 문서객체모델(Document Object Model,DOM)을 생성
+    3. html 문서의 DOM 객체를 사용해서
+       모든 요소에 액세스, 변경 등등 조작을 할 수 있다.
+       (DOM 메서드, DOM 속성 제공하고 있음.)
+    4. DOM 모델은 객체 트리로 구성.
+    5. html 문서의 모든 것이 노드( Node )이다.
+       [ ]
+       - 요소, 속성, 주석처리, 선언문, 텍스트
+       - html 태그 : root element, 
+       - <> 텍스트 </> : Node
+       등등
+    6. 모든 노드들은 관계를 맺고 있다.
+       - 부모 자식 관계
+       parentNode 		childNode
+       parentElement(parentNode에 포함될수도 있음)
+       - 형제 관계
+       nextSibling
+       nextElementSibling
+       
+       priviousSibling       
+       priviousElementSibling
+       
+       firstChild
+       lastChild
+       
+       - childNodes 모든 자식 노드 목록
+       					nodeList       
+    7. 각 노드(Node) 속성 (element, attribute, comment, text 등등)
+      1) nodeValue 속성
+          요소노드 - null
+          속성노드 - 속성값
+      	  텍스트노드 - 텍스트
+      2) nodeName 속성
+      	  요소노드 - 태그명 p
+      	  속성노드 - 속성명
+      	  텍스트노드 - #text
+      	  주석노드 - #comment
+      3) nodeType 속성
+      	  1 - 요소노드
+      	  2 - 속성노드
+      	  3 - 텍스트노드
+      	  4 - 주석노드
+      	  5 - html 노드
+      	  6 - html 선언문 DOCTYPE
+    8. DOM 메서드
+      1) html 요소 찾는 메서드
+        document.getElementById()
+        document.getElementByClassName()
+        document.getElementByName()
+        document.getElementByTagName()
+        
+        document.querySelector()
+        document.querySelectorAll()
+      2) html 요소 변경 메서드
+      	element.setAttribute();
+      	element.getAttribute();
+      	element.innerHTML;
+      	element.innerText;
+      3)  요소 생성, 추가, 삭제
+        document.createElement();
+        document.appendChild();
+        document.removeChild();
+        document.replaceChild();
+    9.
+  </xmp>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

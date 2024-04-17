@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+    1. js 숫자 -> 문자열 변환함수
+      ㄴ toString()  숫자 => 문자열 변환
+       10 + ""
+      ㄴ toExpoential()
+          ㄴ 지수표기법으로 작성된 숫자를 반환.
+      ㄴ toFixed()
+          ㄴ 소수점 이하 자릿수로 작성된 숫자를 반환.
+      ㄴ toPercision() 
+          ㄴ 지정된 길이로 쓰여진 숫자와 함께 문자열을 반환.
+          
+     2. js 문자열 -> 숫자 변환함수
+  </xmp>
+</div>
+
+ <script>
+   let x = 123;
+   document.write( x.toString() ); // 문자열 123
+ </script>
+ 
+ 
+</body>
+</html>

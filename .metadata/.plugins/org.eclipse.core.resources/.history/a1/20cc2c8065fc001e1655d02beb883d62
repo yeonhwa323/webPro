@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+  </xmp>
+  
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptatum iure modi quod repellendus quia nostrum ipsa inventore nemo eos doloribus dicta illo excepturi quas perferendis reprehenderit cumque voluptatem amet.</p>
+  <p>Nesciunt iure sunt odit <span>tempora</span> libero quibusdam odio voluptatem amet vel deserunt. Necessitatibus tenetur placeat dignissimos quae harum pariatur perspiciatis nobis blanditiis assumenda facilis suscipit sunt expedita explicabo optio quidem.</p>
+  <p>In architecto eos nobis reprehenderit hic nulla ad tenetur consequatur odio deserunt. Soluta repudiandae sequi reprehenderit inventore incidunt facilis explicabo deleniti sunt at perspiciatis assumenda sapiente tempore ab voluptatibus provident!</p>
+  <p>Inventore iste laboriosam totam vitae ut exercitationem ipsum aut id neque fugiat sapiente doloribus harum expedita odit officia sint voluptas sunt impedit a voluptates natus debitis consectetur qui nesciunt deleniti!</p>
+  <p>Excepturi nobis unde repudiandae hic optio magnam quod sapiente quasi dolores corrupti a ipsa voluptate alias culpa non vitae maiores quidem reiciendis id natus vero cumque eum doloribus quibusdam pariatur!</p>
+  
+</div>
+
+ <script>
+   $("p").css("color", "red"); s
+   
+   // span 자식요소를 가지는 모든 p 태그
+   //$("p:has(span)").css("color", "red");   
+   //$("p").has("span").css("color", "green");
+   
+   //$("p:contains(eos)").css("color", "red"); 
+   
+   $("div:not(:has(h1))").css("color", "reds"); 
+   
+ </script>
+
+</body>
+</html>

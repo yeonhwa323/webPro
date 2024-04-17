@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+    js boolean : true, false
+  </xmp>
+</div>
+ <script>
+   // alert( 10 > 9 ); // true
+   // Boolean() 함수
+   // alert( Boolean(10>9) ); // true
+   
+   // [주의]
+   /*
+   // 1) js 에서는 가치가 있는 것은 모두 true 로 인식
+   100     true
+   3.14    true
+   -10     true
+   "hello" true
+   
+   // 2) js 에서는 가치가 없는 것은 모두 true 로 인식
+   0      		false
+   -0      		false
+   undefined    false
+   ""      		false
+   null     	false
+   NaN     		false
+   
+   (10/"aaa")   
+   */
+   
+   /*
+   let name;
+   if(name) {}
+   else { // 블럭이 실행 }
+   alert( Boolean( name ) );	// undefined -> false
+   */
+ </script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+    1. jquery selector
+      1) *		$("*") 모든 요소를 선택자로 사용.
+      2) 아이디명 $("#아이디명")
+      3) 클래스명	$(".클래스명")
+      4) 태그명	$("p")
+      
+      5) h1, h2, h3{ }  $("h1,h2,h3").action();
+      6) :first  $(":first")  first()
+      	 :last   $(":last")   last()
+      	 ex03_02.html
+      	 
+      7) :even
+      	 :odd
+      	 ex03_03.html
+      	 
+      8) [css selector]
+         :first-child
+         :last-child
+         :nth-child(n)
+         :nth-last-child(n)
+         
+         :first-of-type
+         :last-of-type
+         :nth-of-type(n)
+         :nth-last-of-type(n)
+         
+      9) :only-child
+         :only-of-type
+         ex03_04.html
+         
+      10) :eq(index)              eq()
+          :lt (no)
+          :gt (no)
+          ex03_05.html
+          
+      11) [css selector]
+      	  parent  child
+          parent > child
+          parent + child
+          parent ~ child
+          
+     12) :not(selector)    not()
+         ex03_06.html
+         
+    2. jquery method
+  </xmp>
+</div>
+</body>
+</html>

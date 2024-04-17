@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/webPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://localhost/webPro/resources/cdn-main/example.css">
+<script src="http://localhost/webPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+   vertical-align: text-bottom;
+ }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">yeon HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<div>
+  <xmp class="code">
+    [ js 제어문 ]
+    if() {}
+    
+    if() {}
+    else {}
+    
+    if() {}
+    else if() {}
+    else if() {}
+    else if() {}
+    else {}
+    
+    switch(key){
+      case value:
+      break;
+      case value:
+      break;
+      case value:
+      break;
+      case value:
+      break;
+      default:
+      break;
+    }
+    
+    while() {}
+    do{
+    } while();
+    
+    break 레이블명;
+    continue 레이블명;
+    
+    OUT:
+    for(let i=0; i<10; i++){
+      if(i==2) break OUT;
+    }
+    
+    [for in 문 / for of 문]
+    1. for ~ in 문
+    	ㄴ 객체의 속성을 반복하는 문
+    2. for ~ of 문
+    	ㄴ 배열, 객체, map, 문자열, NodeList 등
+    	과 같은 반복이 가능한 객체를 처리하는 반복문
+    
+  </xmp>
+</div>
+ <script>
+   // for ~ in 문
+   var m = [3,5,2,4,1]; // js 는 배열도 객체이다. object
+   
+   for( var index in m) {
+	   console.log( index + "/" + m[index]);
+   }
+   
+   var person = {
+		  firstName:"changik"
+   		  , lastName:"lee"
+   		  , age:20
+   };
+   
+   console.log( person.firstName +"/"
+		   + person["firstName"]);
+   
+   for ( var prop in person ) {
+	   console.log( prop + "/" + person[prop])
+   }// for~in
+   
+ </script>
+
+</body>
+</html>
+
+
+
+
+
+
